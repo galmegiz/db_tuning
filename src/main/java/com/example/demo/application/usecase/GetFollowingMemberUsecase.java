@@ -5,10 +5,12 @@ import com.example.demo.domain.follow.service.FollowReadService;
 import com.example.demo.domain.member.dto.MemberDto;
 import com.example.demo.domain.member.service.MemberReadService;
 import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @RequiredArgsConstructor
+@Service
 public class GetFollowingMemberUsecase {
 
     private final FollowReadService followReadService;
